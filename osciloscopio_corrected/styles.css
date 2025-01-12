@@ -1,0 +1,29 @@
+
+body {
+    margin: 0;
+    overflow: hidden; /* Evita el scroll */
+    background-color: #000; /* Fondo negro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+canvas {
+    display: block;
+    width: 100vw; /* Ocupa el ancho completo de la pantalla */
+    height: 100vh; /* Ocupa el alto completo de la pantalla */
+    background: repeating-linear-gradient(
+            to right,
+            #003300 0px,
+            #003300 1px,
+            transparent 1px,
+            transparent 20px
+        ),
+        repeating-linear-gradient(
+            to bottom,
+            #003300 0px,
+            #003300 1px,
+            transparent 1px,
+            transparent 20px
+        );
+}
